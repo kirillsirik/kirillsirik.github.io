@@ -24,4 +24,4 @@ Highlights:
     Out-of-sample IPCA Sharpe ratios by number of factors K: portfolios built on frequency-split imputations (green) recover much more of the fully-observed benchmark (orange) than the baseline imputation (blue).
 </div>
 
-**Links:** [code & report on GitHub](https://github.com/ks2850/missing-financial-data-replication) · [full report (PDF)](https://github.com/ks2850/missing-financial-data-replication/blob/main/report/ECO480_Final_Report_KS.pdf)
+**Links:** [code & report on GitHub](https://github.com/kirillsirik/missing-financial-data-replication) · [full report (PDF)](https://github.com/kirillsirik/missing-financial-data-replication/blob/main/report/ECO480_Final_Report_KS.pdf)

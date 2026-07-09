@@ -20,4 +20,4 @@ latest_posts:
 
 Welcome! This site is brand new and still under construction — a fuller profile is on its way.
 
-In the meantime, have a look at my [research projects](/projects/) or find me on [GitHub](https://github.com/ks2850).
+In the meantime, have a look at my [research projects](/projects/) or find me on [GitHub](https://github.com/kirillsirik).

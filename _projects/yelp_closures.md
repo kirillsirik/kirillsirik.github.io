@@ -26,4 +26,4 @@ Highlights:
     Closure rate rises roughly 15-fold as the last pre-cutoff review ages from under 30 days to over a year.
 </div>
 
-**Links:** [code & report on GitHub](https://github.com/ks2850/Yelp-Open-Dataset-Project) · [full report (PDF)](https://github.com/ks2850/Yelp-Open-Dataset-Project/blob/main/report/SML301_Final_Project.pdf)
+**Links:** [code & report on GitHub](https://github.com/kirillsirik/Yelp-Open-Dataset-Project) · [full report (PDF)](https://github.com/kirillsirik/Yelp-Open-Dataset-Project/blob/main/report/SML301_Final_Project.pdf)
