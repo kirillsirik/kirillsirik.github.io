@@ -1,0 +1,77 @@
+/*******************************************************************************
+ * Site-specific style overrides.
+ * Loaded after all theme partials via assets/css/main.scss.
+ ******************************************************************************/
+
+/* ---- Accent color: understated academic blue (theme default is purple) ---- */
+:root {
+  --global-theme-color: #20618f;
+  --global-hover-color: #174a6e;
+}
+
+html[data-theme="dark"] {
+  --global-theme-color: #8ec5e6;
+  --global-hover-color: #b3d9f2;
+}
+
+/* ---- Name: even weight everywhere (theme bolds the first name only) ---- */
+.post-title .font-weight-bold,
+.navbar-brand .font-weight-bold {
+  font-weight: inherit;
+}
+
+/* Lighter, more spacious page titles */
+.post-header .post-title {
+  font-weight: 300;
+  letter-spacing: 0.03em;
+}
+
+.post-header .post-description,
+.post-header .desc {
+  color: var(--global-text-color-light);
+  letter-spacing: 0.01em;
+}
+
+/* ---- About page: calmer, more readable lead text ---- */
+.post article > .clearfix {
+  font-size: 1.08rem;
+  line-height: 1.8;
+  max-width: 44rem;
+}
+
+/* Slightly smaller, softer social icons (about page footer) */
+.social .contact-icons {
+  font-size: 2.8rem;
+
+  a {
+    color: var(--global-text-color-light);
+    transition: color 0.2s ease;
+
+    &:hover {
+      color: var(--global-theme-color);
+    }
+  }
+}
+
+/* ---- Project cards: softer corners, hairline border, gentler shadow ---- */
+.projects .card {
+  border: 1px solid var(--global-divider-color);
+  border-radius: 0.6rem;
+  overflow: hidden;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.05);
+
+  .card-title {
+    font-weight: 500;
+    letter-spacing: 0.01em;
+  }
+
+  .card-text {
+    color: var(--global-text-color-light);
+  }
+}
+
+/* ---- Navbar: hairline divider instead of heavy shadow ---- */
+.navbar {
+  box-shadow: none;
+  border-bottom: 1px solid var(--global-divider-color);
+}

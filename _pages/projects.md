@@ -5,7 +5,7 @@ permalink: /projects/
 description: Selected research projects. Each card links to a full write-up and the code behind it.
 nav: true
 nav_order: 2
-horizontal: false
+horizontal: true
 ---
 
 <!-- pages/projects.md -->
