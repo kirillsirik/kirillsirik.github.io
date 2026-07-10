@@ -18,6 +18,6 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-Welcome! This site is brand new and still under construction — a fuller profile is on its way.
+I am an undergraduate at Princeton University studying Operations Research and Financial Engineering, with minors in Quantitative Economics and Statistics & Machine Learning. I am broadly interested in econometrics, statistical machine learning, and optimization, with applications to finance, markets, and decision-making.
 
-In the meantime, have a look at my [research projects](/projects/) or find me on [GitHub](https://github.com/kirillsirik).
+My CV is available upon request — feel free to reach out by <a href="mailto:{{ 'ks2850@princeton.edu' | encode_email }}">email</a>.

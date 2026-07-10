@@ -1,4 +1,5 @@
 # Social links displayed on the about page.
 # More can be enabled later (email, scholar_userid, linkedin_username, cv_pdf, ...)
 # per the jekyll-socials plugin: https://github.com/george-gca/jekyll-socials
+email: ks2850@princeton.edu
 github_username: kirillsirik
