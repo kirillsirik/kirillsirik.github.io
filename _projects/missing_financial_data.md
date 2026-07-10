@@ -3,7 +3,7 @@ layout: page
 title: Missing Financial Data — Replication & Extension
 description: Replication and frequency-split extension of Bryzgalova, Lerner, Lettau & Pelger (2024, Review of Financial Studies)
 img: assets/img/proj_mfd.png
-importance: 1
+importance: 2
 related_publications: false
 ---
 

@@ -3,7 +3,7 @@ layout: page
 title: Predicting Business Closures with the Yelp Open Dataset
 description: Leakage-aware machine learning on 150k businesses and ~7M reviews — classical models vs. neural networks
 img: assets/img/proj_yelp.png
-importance: 2
+importance: 3
 related_publications: false
 ---
 
