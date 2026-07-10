@@ -18,7 +18,7 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-I am an undergraduate at Princeton University studying Operations Research and Financial Engineering, with minors in Quantitative Economics and Statistics & Machine Learning. I am broadly interested in econometrics, statistical machine learning, and optimization, with applications to finance, markets, and decision-making.
+Hello! I am an undergraduate at Princeton University studying Operations Research and Financial Engineering, with minors in Quantitative Economics and Statistics & Machine Learning. I am broadly interested in econometrics, statistical machine learning, and optimization, with applications to finance, markets, and decision-making.
 
 My CV is available upon request — feel free to reach out by <a href="mailto:{{ 'ks2850@princeton.edu' | encode_email }}">email</a>.
 
@@ -26,5 +26,6 @@ My CV is available upon request — feel free to reach out by <a href="mailto:{{
   <div class="contact-icons">
     <a href="mailto:{{ 'ks2850@princeton.edu' | encode_email }}" title="Email"><i class="fa-solid fa-envelope"></i></a>
     <a href="https://github.com/kirillsirik" title="GitHub" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-github"></i></a>
+    <a href="https://www.linkedin.com/in/kirs3" title="LinkedIn" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-linkedin"></i></a>
   </div>
 </div>
