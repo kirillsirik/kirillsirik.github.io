@@ -5,7 +5,7 @@ permalink: /
 subtitle:
 
 selected_papers: false # includes a list of papers marked as "selected={true}"
-social: true # includes social icons at the bottom of the page
+social: false # theme icons render a plain mailto; icons are added manually below with an encoded address
 
 announcements:
   enabled: false # includes a list of news items
@@ -21,3 +21,10 @@ latest_posts:
 I am an undergraduate at Princeton University studying Operations Research and Financial Engineering, with minors in Quantitative Economics and Statistics & Machine Learning. I am broadly interested in econometrics, statistical machine learning, and optimization, with applications to finance, markets, and decision-making.
 
 My CV is available upon request — feel free to reach out by <a href="mailto:{{ 'ks2850@princeton.edu' | encode_email }}">email</a>.
+
+<div class="social">
+  <div class="contact-icons">
+    <a href="mailto:{{ 'ks2850@princeton.edu' | encode_email }}" title="Email"><i class="fa-solid fa-envelope"></i></a>
+    <a href="https://github.com/kirillsirik" title="GitHub" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-github"></i></a>
+  </div>
+</div>
