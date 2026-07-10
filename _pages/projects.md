@@ -2,7 +2,7 @@
 layout: page
 title: projects
 permalink: /projects/
-description: Selected research projects. Each card links to a full write-up and the code behind it.
+description: Selected research projects. Each card links to a full description, with code and reports where available.
 nav: true
 nav_order: 2
 horizontal: true
