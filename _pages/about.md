@@ -18,9 +18,13 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-Hello! I am an undergraduate at Princeton University studying Operations Research and Financial Engineering, with minors in Quantitative Economics and in Statistics and Machine Learning. I am broadly interested in econometrics, statistical machine learning, and optimization, with applications to finance, markets, and decision making.
+Hello, and thank you for taking the time to visit my page!
+
+I am an undergraduate at Princeton University studying Operations Research and Financial Engineering, with minors in Quantitative Economics and in Statistics and Machine Learning. I am broadly interested in econometrics, statistical machine learning, and optimization, with applications to finance, markets, and decision making.
 
 My CV is available upon request. Feel free to reach out by <a href="mailto:{{ 'ks2850@princeton.edu' | encode_email }}">email</a>.
+
+Please note that this site is still under development. More content is on the way.
 
 <div class="social">
   <div class="contact-icons">
