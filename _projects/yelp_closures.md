@@ -1,15 +1,18 @@
 ---
 layout: page
 title: Predicting Business Closures with the Yelp Open Dataset
-description: Predicting business closures and future star ratings from 150,346 businesses and about 7 million reviews, comparing classical machine learning models with neural networks.
+description: Predicting business closures and future star ratings from 150,346 businesses and about 7 million reviews, comparing classical machine learning models with neural networks. Undergraduate course project.
 img: assets/img/proj_yelp.png
 importance: 3
+badge: Course project
 related_publications: false
 ---
 
+<span class="project-badge">Course project</span>
+
 This project uses the Yelp Open Dataset (150,346 businesses and about 7 million reviews across 11 metropolitan areas) to study two prediction problems: whether a business is closed after a cutoff date *T*, and, for businesses that remain open, what their average star rating is after *T*.
 
-All features are computed from information dated on or before *T* = December 31, 2020. Yelp's own aggregate fields are discarded and recomputed from reviews dated before the cutoff in order to prevent information leakage. Classical models (logistic regression, a calibrated ridge classifier, decision trees, and random forests) are compared with feedforward neural networks under a shared preprocessing and evaluation pipeline.
+All features are computed from information dated on or before *T* = December 31, 2020. Yelp's own aggregate fields are discarded and recomputed from reviews dated before the cutoff in order to prevent information leakage. Classical models (logistic regression, a calibrated ridge classifier, decision trees, and random forests) are compared with feedforward neural networks under a shared preprocessing and evaluation pipeline. This work was completed as an undergraduate course project at Princeton University.
 
 Main findings:
 

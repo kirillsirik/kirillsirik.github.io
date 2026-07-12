@@ -1,11 +1,14 @@
 ---
 layout: page
 title: Data Centers Will Strain the Texas Grid (Even with Demand Response)
-description: A study of how 22 GW of projected data center load would affect prices, costs, and reliability on the Texas grid. With Alex Crosier and Ronnie Sircar (ORFEUS, Princeton University).
+description: A study of how 22 GW of projected data center load would affect prices, costs, and reliability on the Texas grid. With Alex Crosier and Ronnie Sircar. Published on the website of the ORFEUS research group at Princeton University.
 img: assets/img/proj_datacenters.png
 importance: 1
+badge: Research group study
 related_publications: false
 ---
+
+<span class="project-badge">Research group study</span>
 
 ERCOT forecasts that data centers in Texas will demand 22 GW by 2030, up from roughly 1 GW today. This study, written with Alex Crosier and Ronnie Sircar and published by the [ORFEUS group](https://orfeus.princeton.edu/) at Princeton University, examines how that projected load would affect prices, costs, and reliability on the Texas grid, and to what extent demand response can mitigate the effects.
 

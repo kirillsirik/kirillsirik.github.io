@@ -1,13 +1,16 @@
 ---
 layout: page
 title: Replication and Extension of Missing Financial Data
-description: Replication and frequency split extension of Bryzgalova, Lerner, Lettau and Pelger (2024, Review of Financial Studies).
+description: Replication and frequency split extension of Bryzgalova, Lerner, Lettau and Pelger (2024, Review of Financial Studies). Undergraduate course project.
 img: assets/img/proj_mfd.png
 importance: 2
+badge: Course project
 related_publications: false
 ---
 
-This project replicates the core empirical findings of Bryzgalova, Lerner, Lettau and Pelger (2024), [*Missing Financial Data*](https://doi.org/10.1093/rfs/hhae036) (*Review of Financial Studies*), and extends their imputation methodology with a frequency split design that assigns a separate latent dimension *K* and regularization *γ* to monthly and quarterly firm characteristics. The motivation is that the two groups differ in signal dimensionality, persistence, and missingness structure.
+<span class="project-badge">Course project</span>
+
+This project replicates the core empirical findings of Bryzgalova, Lerner, Lettau and Pelger (2024), [*Missing Financial Data*](https://doi.org/10.1093/rfs/hhae036) (*Review of Financial Studies*), and extends their imputation methodology with a frequency split design that assigns a separate latent dimension *K* and regularization *γ* to monthly and quarterly firm characteristics. The motivation is that the two groups differ in signal dimensionality, persistence, and missingness structure. This work was completed as an undergraduate course project at Princeton University.
 
 Main findings:
 
