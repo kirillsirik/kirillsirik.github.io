@@ -6,11 +6,24 @@ img: assets/img/proj_mfd.png
 importance: 2
 badge: Course project
 related_publications: false
+
+category: course
+authors: Kirill Sirik
+venue: Undergraduate course project, Princeton University
+summary: >
+  Replicates the imputation results of Bryzgalova, Lerner, Lettau and Pelger (2024) and extends them
+  with a frequency split design that gives monthly and quarterly firm characteristics separate latent
+  dimensions and regularization.
+links:
+  - name: Code and report
+    url: https://github.com/kirillsirik/missing-financial-data-replication
+  - name: Report (PDF)
+    url: https://github.com/kirillsirik/missing-financial-data-replication/blob/main/report/ECO480_Final_Report_KS.pdf
 ---
 
 <span class="project-badge">Course project</span>
 
-This project replicates the core empirical findings of Bryzgalova, Lerner, Lettau and Pelger (2024), [*Missing Financial Data*](https://doi.org/10.1093/rfs/hhae036) (*Review of Financial Studies*), and extends their imputation methodology with a frequency split design that assigns a separate latent dimension *K* and regularization *γ* to monthly and quarterly firm characteristics. The motivation is that the two groups differ in signal dimensionality, persistence, and missingness structure. This work was completed as an undergraduate course project at Princeton University.
+This project replicates the core empirical findings of Bryzgalova, Lerner, Lettau and Pelger (2024), [_Missing Financial Data_](https://doi.org/10.1093/rfs/hhae036) (_Review of Financial Studies_), and extends their imputation methodology with a frequency split design that assigns a separate latent dimension _K_ and regularization _γ_ to monthly and quarterly firm characteristics. The motivation is that the two groups differ in signal dimensionality, persistence, and missingness structure. This work was completed as an undergraduate course project at Princeton University.
 
 Main findings:
 

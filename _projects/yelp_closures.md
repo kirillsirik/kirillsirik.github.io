@@ -6,13 +6,26 @@ img: assets/img/proj_yelp.png
 importance: 3
 badge: Course project
 related_publications: false
+
+category: course
+authors: Kirill Sirik
+venue: Undergraduate course project, Princeton University
+summary: >
+  Predicts business closure and post cutoff star ratings from 150,346 businesses and about 7 million
+  reviews, comparing classical machine learning models with neural networks under a shared, leakage
+  aware preprocessing and evaluation pipeline.
+links:
+  - name: Code and report
+    url: https://github.com/kirillsirik/Yelp-Open-Dataset-Project
+  - name: Report (PDF)
+    url: https://github.com/kirillsirik/Yelp-Open-Dataset-Project/blob/main/report/SML301_Final_Project.pdf
 ---
 
 <span class="project-badge">Course project</span>
 
-This project uses the Yelp Open Dataset (150,346 businesses and about 7 million reviews across 11 metropolitan areas) to study two prediction problems: whether a business is closed after a cutoff date *T*, and, for businesses that remain open, what their average star rating is after *T*.
+This project uses the Yelp Open Dataset (150,346 businesses and about 7 million reviews across 11 metropolitan areas) to study two prediction problems: whether a business is closed after a cutoff date _T_, and, for businesses that remain open, what their average star rating is after _T_.
 
-All features are computed from information dated on or before *T* = December 31, 2020. Yelp's own aggregate fields are discarded and recomputed from reviews dated before the cutoff in order to prevent information leakage. Classical models (logistic regression, a calibrated ridge classifier, decision trees, and random forests) are compared with feedforward neural networks under a shared preprocessing and evaluation pipeline. This work was completed as an undergraduate course project at Princeton University.
+All features are computed from information dated on or before _T_ = December 31, 2020. Yelp's own aggregate fields are discarded and recomputed from reviews dated before the cutoff in order to prevent information leakage. Classical models (logistic regression, a calibrated ridge classifier, decision trees, and random forests) are compared with feedforward neural networks under a shared preprocessing and evaluation pipeline. This work was completed as an undergraduate course project at Princeton University.
 
 Main findings:
 

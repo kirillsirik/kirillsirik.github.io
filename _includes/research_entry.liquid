@@ -1,0 +1,25 @@
+{% assign entry = include.entry %}
+<div class="research-entry">
+  <h3 class="research-title">
+    <a href="{{ entry.url | relative_url }}">{{ entry.title }}</a>
+  </h3>
+  <p class="research-meta">
+    {% if entry.authors -%}
+      <span class="research-authors">{{ entry.authors | replace: 'Kirill Sirik', '<strong>Kirill Sirik</strong>' }}.</span>
+    {%- endif %}
+    {% if entry.venue -%}
+      <span class="research-venue"
+        ><em>{{ entry.venue }}</em>{% if entry.year %}, {{ entry.year }}{% endif %}.</span
+      >
+    {%- endif %}
+  </p>
+  {% if entry.summary %}
+    <p class="research-summary">{{ entry.summary }}</p>
+  {% endif %}
+  <p class="research-links">
+    <a href="{{ entry.url | relative_url }}">Details</a>
+    {% for link in entry.links -%}
+      <span class="research-sep">&middot;</span><a href="{{ link.url }}" target="_blank" rel="noopener noreferrer">{{ link.name }}</a>
+    {%- endfor %}
+  </p>
+</div>

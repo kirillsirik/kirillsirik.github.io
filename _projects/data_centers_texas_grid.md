@@ -6,6 +6,17 @@ img: assets/img/proj_datacenters.png
 importance: 1
 badge: Research group study
 related_publications: false
+
+category: research
+authors: Kirill Sirik, Alex Crosier, Ronnie Sircar
+venue: ORFEUS research group, Princeton University
+summary: >
+  Simulates a full year of operation on a synthetic 7,000 bus Texas grid to measure how 22 GW of
+  projected data center load affects wholesale prices, system costs, and reliability, and how far
+  a demand response scheme can offset those effects.
+links:
+  - name: Full study
+    url: https://orfeus.princeton.edu/data-centers-will-strain-grid-even-demand-response.html
 ---
 
 <span class="project-badge">Research group study</span>
