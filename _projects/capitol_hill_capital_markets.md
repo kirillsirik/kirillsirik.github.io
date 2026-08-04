@@ -16,9 +16,9 @@ abstract: >
   to be reported weeks after they occur, yet a retail following has grown around the resulting
   filings. We compile a novel dataset of 58,349 common-stock transactions reported by congressional
   households from 2014 through 2026, drawing on official House and Senate records for filings
-  published before February 28, 2023 and a third-party snapshot thereafter, with filer identities
-  reconciled across systems and provenance recorded at the row level. We begin measuring returns at
-  the close of the first trading day after public release, the earliest point at which an outside
+  published before February 28, 2023 and a third-party snapshot thereafter. We begin measuring
+  returns at the close of the first trading day after public release, the earliest point at which an
+  outside
   investor could act, and estimate both whether the disclosed direction forecasts subsequent
   market-adjusted returns and what a follower earns going long after reported purchases and short
   after reported sales. Neither is detectable at the primary twenty-day horizon: the signed return
