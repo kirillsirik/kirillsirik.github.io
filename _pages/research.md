@@ -2,13 +2,14 @@
 layout: page
 title: research
 permalink: /research/
-description: Working papers, research group work, and course projects from my undergraduate studies, with code and reports where available.
+description: Working papers, works in progress, research group work, and course projects from my undergraduate studies, with code and reports where available.
 nav: true
 nav_order: 1
 ---
 
 {% assign sorted = site.projects | sort: "importance" %}
 {% assign working_papers = sorted | where: "category", "working_paper" %}
+{% assign in_progress = sorted | where: "category", "in_progress" %}
 {% assign research_items = sorted | where: "category", "research" %}
 {% assign course_items = sorted | where: "category", "course" %}
 
@@ -19,6 +20,14 @@ nav_order: 1
 <h2 class="section-heading">Working papers</h2>
 
 {% for entry in working_papers %}{% include research_entry.liquid entry=entry %}{% endfor %}
+
+{% endif %}
+
+{% if in_progress.size > 0 %}
+
+<h2 class="section-heading">Works in progress</h2>
+
+{% for entry in in_progress %}{% include research_entry.liquid entry=entry %}{% endfor %}
 
 {% endif %}
 
