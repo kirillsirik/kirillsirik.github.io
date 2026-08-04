@@ -9,7 +9,7 @@ nav_order: 2
 
 <div class="teaching-list">
 
-<h2 class="section-heading">Teaching assistant</h2>
+<h2 class="section-heading">Undergraduate course assistant</h2>
 
 <div class="teaching-entry">
   <h3 class="teaching-title">ORF 309: Probability and Stochastic Systems</h3>
