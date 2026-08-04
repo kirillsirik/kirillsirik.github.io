@@ -196,6 +196,57 @@ html[data-theme="dark"] {
     line-height: 1.7;
   }
 
+  /* collapsed by default so a long abstract does not crowd the list */
+  .research-abstract {
+    margin-bottom: 0.6rem;
+
+    summary {
+      display: inline-block;
+      font-size: 0.82rem;
+      font-weight: 600;
+      letter-spacing: 0.09em;
+      text-transform: uppercase;
+      color: var(--global-theme-color);
+      cursor: pointer;
+      list-style: none;
+
+      &::-webkit-details-marker {
+        display: none;
+      }
+
+      &::after {
+        content: " +";
+        font-weight: 400;
+      }
+
+      &:hover {
+        color: var(--global-hover-color);
+      }
+    }
+
+    &[open] summary::after {
+      content: " −";
+    }
+
+    p {
+      margin-top: 0.6rem;
+      margin-bottom: 0;
+      padding-left: 0.9rem;
+      border-left: 2px solid var(--global-divider-color);
+      font-size: 0.95rem;
+      line-height: 1.7;
+      text-align: justify;
+      color: var(--global-text-color-light);
+    }
+  }
+
+  .research-note {
+    margin-bottom: 0.5rem;
+    font-size: 0.88rem;
+    font-style: italic;
+    color: var(--global-text-color-light);
+  }
+
   .research-links {
     margin-bottom: 0;
     font-size: 0.9rem;
