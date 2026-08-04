@@ -23,6 +23,12 @@ nav_order: 2
   <p class="teaching-summary">Vectors, curves and surfaces in three dimensional space, differentiation and optimization of multivariable functions, multiple integration, and vector calculus.</p>
 </div>
 
+<div class="teaching-entry">
+  <h3 class="teaching-title">MAT 202: Linear Algebra with Applications</h3>
+  <p class="teaching-meta"><em>Undergraduate, Mathematics, Princeton University.</em></p>
+  <p class="teaching-summary">Matrices and linear transformations, linear independence and dimension, bases and coordinates, determinants, orthogonal projection and least squares, and eigenvalues with applications to quadratic forms and dynamical systems.</p>
+</div>
+
 <h2 class="section-heading">Grader</h2>
 
 <div class="teaching-entry">
