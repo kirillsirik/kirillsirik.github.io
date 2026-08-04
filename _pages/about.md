@@ -39,9 +39,9 @@ Some of my research projects are available [here]({{ '/research/' | relative_url
 
 #### Research interests
 
-- Causal inference, econometrics, and missing-data problems
-- Statistical learning and measurement with complex data
+- Causal inference, empirical research design, and missing-data problems
+- Statistical learning and computational measurement with complex data
+- Choice modeling and heterogeneous behavior
 - Optimization and simulation for decision-making under uncertainty
-- Applications to technology, markets, organizations, and infrastructure
 
 Feel free to reach out by <a href="mailto:{{ 'ks2850@princeton.edu' | encode_email }}">email</a>.
