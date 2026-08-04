@@ -22,12 +22,13 @@
   {% endif %}
   {% if entry.abstract %}
     <details class="research-abstract">
-      <summary>Abstract</summary>
+      <summary>{{ entry.abstract_label | default: 'Abstract' }}</summary>
       <p>{{ entry.abstract }}</p>
     </details>
   {% endif %}
   {% if entry.note %}
-    <p class="research-note">{{ entry.note }} Please <a href="mailto:{{ 'ks2850@princeton.edu' | encode_email }}">email me</a> for a copy.</p>
+    {%- capture email_link %}<a href="mailto:{{ 'ks2850@princeton.edu' | encode_email }}">email me</a>{% endcapture -%}
+    <p class="research-note">{{ entry.note | replace: '%EMAIL%', email_link }}</p>
   {% endif %}
   {% unless entry.hide_details and entry.links == null %}
     <p class="research-links">

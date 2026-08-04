@@ -30,7 +30,7 @@ abstract: >
   publication. Under purged temporal validation, no trading rule survives false-discovery control
   after costs. Our findings highlight observability as a central channel through which public
   information does or does not acquire economic value.
-note: Draft available on request.
+note: Draft available on request. Please %EMAIL% for a copy.
 ---
 
 Details for this project will be added once the paper is ready.
