@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: Undergraduate in Operations Research and Financial Engineering, Princeton University
+subtitle: B.S.E. Candidate in Operations Research and Financial Engineering at Princeton University
 
 profile:
   align: left
@@ -31,19 +31,17 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-Hello, and thank you for taking the time to visit my page!
+I am a B.S.E. candidate at Princeton University studying Operations Research and Financial Engineering, with minors in Quantitative Economics and in Statistics and Machine Learning.
 
-I am an undergraduate at Princeton University studying Operations Research and Financial Engineering, with minors in Quantitative Economics and in Statistics and Machine Learning. I am broadly interested in econometrics, statistical machine learning, and optimization, with applications to finance, markets, and decision making.
+My research interests lie at the intersection of statistics, operations research, and empirical economics. Broadly, I am interested in how statistical and computational methods can improve learning and decision-making under uncertainty. My current interests include causal inference with incomplete or selectively observed data, statistical learning and measurement using high-dimensional and unstructured data, and optimization and simulation in economic and operational systems, with applications to technology, markets, organizations, and infrastructure.
 
-Some of my past research projects are available [here]({{ '/research/' | relative_url }}).
+Some of my research projects are available [here]({{ '/research/' | relative_url }}).
 
 #### Research interests
 
-- Econometrics
-- Causal inference
-- Statistical machine learning
-- Optimization
+- Causal inference, econometrics, and missing-data problems
+- Statistical learning and measurement with complex data
+- Optimization and simulation for decision-making under uncertainty
+- Applications to technology, markets, organizations, and infrastructure
 
-My CV is available upon request. Feel free to reach out by <a href="mailto:{{ 'ks2850@princeton.edu' | encode_email }}">email</a>.
-
-Please note that this site is still under development. More content is on the way.
+Feel free to reach out by <a href="mailto:{{ 'ks2850@princeton.edu' | encode_email }}">email</a>.
