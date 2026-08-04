@@ -24,7 +24,7 @@ ninja.data = [{
     },
   },{id: "nav-research",
           title: "research",
-          description: "Research group work and course projects from my undergraduate studies, with code and reports where available.",
+          description: "Working papers, research group work, and course projects from my undergraduate studies, with code and reports where available.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/research/";
@@ -43,7 +43,12 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/cv/";
           },
-        },{id: "projects-data-centers-will-strain-the-texas-grid-even-with-demand-response",
+        },{id: "projects-from-capitol-hill-to-capital-markets-post-disclosure-predictive-content-of-congressional-trade-disclosures",
+          title: 'From Capitol Hill to Capital Markets: Post-Disclosure Predictive Content of Congressional Trade Disclosures...',
+          description: "Whether congressional stock trades disclosed under the STOCK Act carry investable information for outside investors after disclosure.",
+          section: "Projects",handler: () => {
+              window.location.href = "/research/capitol_hill_capital_markets/";
+            },},{id: "projects-data-centers-will-strain-the-texas-grid-even-with-demand-response",
           title: 'Data Centers Will Strain the Texas Grid (Even with Demand Response)',
           description: "A study of how 22 GW of projected data center load would affect prices, costs, and reliability on the Texas grid. Project done in collaboration with Alex Crosier and Ronnie Sircar. Published on the ORFEUS research group at Princeton University.",
           section: "Projects",handler: () => {
