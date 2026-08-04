@@ -35,14 +35,14 @@ Hello, and thank you for taking the time to visit my page!
 
 I am an undergraduate at Princeton University studying Operations Research and Financial Engineering, with minors in Quantitative Economics and in Statistics and Machine Learning. I am broadly interested in econometrics, statistical machine learning, and optimization, with applications to finance, markets, and decision making.
 
-My [research]({{ '/research/' | relative_url }}) so far spans electricity market simulation, factor models under missing data, and predictive modeling on large observational datasets.
+Some of my past research projects are available [here]({{ '/research/' | relative_url }}).
 
 #### Research interests
 
 - Econometrics
+- Causal inference
 - Statistical machine learning
 - Optimization
-- Applications to finance, markets, and decision making
 
 My CV is available upon request. Feel free to reach out by <a href="mailto:{{ 'ks2850@princeton.edu' | encode_email }}">email</a>.
 
