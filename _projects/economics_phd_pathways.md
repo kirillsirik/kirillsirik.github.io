@@ -26,12 +26,8 @@ abstract: >
   small set of undergraduate institutions and whether the growing use of master's degrees and
   full-time predoc positions has broadened or narrowed access. It also studies variation across
   program-ranking bands, domestic and international educational pathways, public and private
-  institutions, and placement outcomes. The dataset is constructed with field-level provenance: each
-  extracted fact retains its source URL, document or archive identity, source location, supporting
-  evidence, extraction method, and review status. Official sources are used to establish program
-  affiliation, and identity matches, cohort assignments, program scope, and structured facts are
-  independently validated. The project is currently in the data-collection and quality-assurance
-  stage; all reported coverage and findings remain preliminary.
+  institutions, and placement outcomes. The project is currently in the data-collection and
+  quality-assurance stage; all reported coverage and findings remain preliminary.
 note: Data collection and validation in progress, so all coverage and findings remain preliminary. Collaboration is welcome, please %EMAIL%.
 ---
 
