@@ -10,6 +10,7 @@ related_publications: false
 category: research
 authors: Kirill Sirik, Alex Crosier, Ronnie Sircar
 venue: ORFEUS research group, Princeton University
+year: 2025
 summary: >
   Simulates a full year of operation on a synthetic 7,000 bus Texas grid to measure how 22 GW of
   projected data center load affects wholesale prices, system costs, and reliability, and how far

@@ -15,7 +15,7 @@ nav_order: 1
 
 {% if research_items.size > 0 %}
 
-<h2 class="research-section">Research group work</h2>
+<h2 class="section-heading">Research group work</h2>
 
 {% for entry in research_items %}{% include research_entry.liquid entry=entry %}{% endfor %}
 
@@ -23,9 +23,9 @@ nav_order: 1
 
 {% if course_items.size > 0 %}
 
-<h2 class="research-section">Course projects</h2>
+<h2 class="section-heading">Course projects</h2>
 
-<p class="research-section-note">Completed for undergraduate coursework at Princeton University. These are not peer reviewed research.</p>
+<p class="section-note">Completed for undergraduate coursework at Princeton University. These are not peer reviewed research.</p>
 
 {% for entry in course_items %}{% include research_entry.liquid entry=entry %}{% endfor %}
 
