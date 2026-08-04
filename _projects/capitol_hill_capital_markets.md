@@ -16,7 +16,8 @@ abstract: >
   to be reported weeks after they occur, yet a retail following has grown around the resulting
   filings. We compile a novel dataset of 58,349 common-stock transactions reported by congressional
   households from 2014 through 2026, drawing on official House and Senate records for filings
-  published before February 28, 2023 and a third-party snapshot thereafter. We begin measuring
+  published before February 28, 2023 and on Capitol Trades, a commercial disclosure tracker,
+  thereafter. We begin measuring
   returns at the close of the first trading day after public release, the earliest point at which an
   outside
   investor could act, and estimate both whether the disclosed direction forecasts subsequent
