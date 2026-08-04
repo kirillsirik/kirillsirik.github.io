@@ -34,43 +34,202 @@ html[data-theme="dark"] {
 
 /* ---- About page: calmer, more readable lead text ---- */
 .post article > .clearfix {
-  font-size: 1.08rem;
+  font-size: 1.06rem;
   line-height: 1.8;
-  max-width: 44rem;
 }
 
-/* Slightly smaller, softer social icons (about page footer) */
-.social .contact-icons {
-  font-size: 2.8rem;
+.post article > .clearfix h4 {
+  margin-top: 2rem;
+  margin-bottom: 0.75rem;
+  font-size: 0.82rem;
+  font-weight: 600;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--global-text-color-light);
+}
 
-  a {
-    color: var(--global-text-color-light);
-    transition: color 0.2s ease;
+.post article > .clearfix ul {
+  margin-bottom: 1.5rem;
+  padding-left: 1.2rem;
 
-    &:hover {
-      color: var(--global-theme-color);
+  li {
+    margin-bottom: 0.2rem;
+  }
+}
+
+/* ---- About page: fixed left sidebar beside the bio, rather than a float the
+       text wraps under once it clears the photo ---- */
+@media (min-width: 768px) {
+  .post > article:has(> .profile) {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    column-gap: 2.75rem;
+
+    > .profile {
+      flex: 0 0 250px;
+      max-width: 250px;
+      float: none !important;
+      margin: 0;
+      padding: 0;
+    }
+
+    > .clearfix {
+      flex: 1 1 0;
+      min-width: 0;
+      margin-top: 0;
+    }
+
+    /* news, posts and any other about-page sections span the full width */
+    > *:not(.profile):not(.clearfix) {
+      flex: 1 0 100%;
     }
   }
 }
 
-/* ---- Project cards: softer corners, hairline border, gentler shadow ---- */
-.projects .card {
-  border: 1px solid var(--global-divider-color);
-  border-radius: 0.6rem;
-  overflow: hidden;
-  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.05);
-
-  .card-title {
-    font-weight: 500;
-    letter-spacing: 0.01em;
+/* ---- Profile sidebar: photo, location, contact icons ---- */
+.profile {
+  img {
+    border-radius: 50%;
+    box-shadow: none;
   }
 
-  .card-text {
+  /* stacked above the bio on narrow screens, so cap the photo */
+  @media (max-width: 767px) {
+    figure {
+      max-width: 220px;
+      margin: 0 auto;
+    }
+  }
+
+  .more-info {
+    margin-top: 1rem;
+    padding: 0;
+    font-family: inherit;
+    font-size: 0.92rem;
+    line-height: 1.55;
     color: var(--global-text-color-light);
+    text-align: center;
+
+    /* theme renders these inline; one line each reads as an address block */
+    p {
+      display: block;
+      margin-bottom: 0.1rem;
+    }
+  }
+
+  .profile-location {
+    font-size: 0.9rem;
+  }
+
+  .contact-icons {
+    margin-top: 0.8rem;
+    font-size: 1.35rem;
+
+    a {
+      margin: 0 0.35rem;
+      color: var(--global-text-color-light);
+      transition: color 0.2s ease;
+
+      &:hover {
+        color: var(--global-theme-color);
+      }
+    }
   }
 }
 
-/* ---- Provenance badges on project cards and pages ---- */
+/* ---- Research page: plain text entries grouped by section ---- */
+.section-heading {
+  margin-top: 2.6rem;
+  margin-bottom: 0.4rem;
+  padding-bottom: 0.4rem;
+  font-size: 1.05rem;
+  font-weight: 600;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--global-text-color-light);
+  border-bottom: 1px solid var(--global-divider-color);
+
+  &:first-of-type {
+    margin-top: 1rem;
+  }
+}
+
+.section-note {
+  margin-top: 0.7rem;
+  margin-bottom: 0;
+  font-size: 0.88rem;
+  color: var(--global-text-color-light);
+}
+
+.research-entry {
+  margin-top: 1.7rem;
+  max-width: 46rem;
+
+  .research-title {
+    margin-bottom: 0.25rem;
+    font-size: 1.18rem;
+    font-weight: 500;
+    line-height: 1.4;
+
+    a {
+      color: var(--global-text-color);
+
+      &:hover {
+        color: var(--global-theme-color);
+      }
+    }
+  }
+
+  .research-meta {
+    margin-bottom: 0.5rem;
+    font-size: 0.93rem;
+    color: var(--global-text-color-light);
+
+    .research-venue {
+      margin-left: 0.25rem;
+    }
+  }
+
+  .research-summary {
+    margin-bottom: 0.5rem;
+    line-height: 1.7;
+  }
+
+  .research-links {
+    margin-bottom: 0;
+    font-size: 0.9rem;
+
+    .research-sep {
+      margin: 0 0.4rem;
+      color: var(--global-text-color-light);
+    }
+  }
+}
+
+/* ---- Teaching page: same register as the research entries ---- */
+.teaching-entry {
+  margin-top: 1.7rem;
+  max-width: 46rem;
+
+  .teaching-title {
+    margin-bottom: 0.25rem;
+    font-size: 1.18rem;
+    font-weight: 500;
+  }
+
+  .teaching-meta {
+    margin-bottom: 0.5rem;
+    font-size: 0.93rem;
+    color: var(--global-text-color-light);
+  }
+
+  .teaching-summary {
+    line-height: 1.7;
+  }
+}
+
+/* ---- Provenance badges on project detail pages ---- */
 .project-badge {
   display: inline-block;
   padding: 0.16rem 0.65rem;
