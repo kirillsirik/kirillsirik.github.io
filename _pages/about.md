@@ -33,7 +33,7 @@ latest_posts:
 
 I am a B.S.E. candidate at Princeton University studying Operations Research and Financial Engineering, with minors in Quantitative Economics and in Statistics and Machine Learning.
 
-My research interests lie at the intersection of statistics, operations research, and empirical economics. Broadly, I am interested in how statistical and computational methods can improve learning and decision-making under uncertainty. My current interests include causal inference with incomplete or selectively observed data, statistical learning and measurement using high-dimensional and unstructured data, and optimization and simulation in economic and operational systems, with applications to technology, markets, organizations, and infrastructure.
+My research interests lie at the intersection of statistics, operations research, and empirical economics. Broadly, I am interested in using statistical and computational methods to draw credible conclusions from imperfect data and support decision-making in complex systems under uncertainty.
 
 Some of my research projects are available [here]({{ '/research/' | relative_url }}).
 
