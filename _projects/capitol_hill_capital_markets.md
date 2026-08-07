@@ -11,26 +11,23 @@ authors: Kirill Sirik
 venue: Working paper in preparation, Princeton University
 year: 2026
 abstract: >
-  Disclosure makes an actor's trades observable, but it does not make them profitable to follow. We
-  study this wedge in U.S. congressional securities disclosure, where the STOCK Act requires trades
-  to be reported weeks after they occur, yet a retail following has grown around the resulting
-  filings. We compile a novel dataset of 58,349 common-stock transactions reported by congressional
-  households from 2014 through 2026, drawing on official House and Senate records for filings
-  published before February 28, 2023 and on Capitol Trades, a commercial disclosure tracker,
-  thereafter. We begin measuring
-  returns at the close of the first trading day after public release, the earliest point at which an
-  outside
-  investor could act, and estimate both whether the disclosed direction forecasts subsequent
-  market-adjusted returns and what a follower earns going long after reported purchases and short
-  after reported sales. Neither is detectable at the primary twenty-day horizon: the signed return
-  is −0.045% (two-way-clustered standard error 0.080%) and the purchase-minus-sale spread is
-  −0.081% (standard error 0.154%). The 95% interval on the signed estimate, [−0.20%, +0.11%], rules
-  out an economically meaningful edge in either direction. These nulls persist across horizons,
-  benchmarks, entry conventions, and placebo tests, and a paired execution-date benchmark is also
-  null, which rules out the account that an advantage exists at execution and decays before
-  publication. Under purged temporal validation, no trading rule survives false-discovery control
-  after costs. Our findings highlight observability as a central channel through which public
-  information does or does not acquire economic value.
+  We examine whether investors can profit by copying stock trades disclosed by members of Congress.
+  Because these transactions are disclosed with a filing lag, returns measured from the transaction
+  date reflect congressional households' own performance rather than the value of the disclosure to
+  outside investors. We assemble a novel dataset of 58,349 common-stock transactions reported by
+  congressional households from 2014 through 2026 and measure copy-trading returns beginning at the
+  close of the first trading day after disclosure. At the 20-day horizon, a strategy that follows
+  the disclosed trade direction yields −4.5 basis points (95% confidence interval: [−20.1, 11.2]),
+  while reported purchases underperform reported sales by 8.1 basis points. Neither estimate is
+  statistically distinguishable from zero. The conclusion is unchanged across alternative horizons,
+  benchmarks, timing conventions, and placebo tests. Returns measured from the transaction date
+  listed in the disclosure are likewise indistinguishable from zero, providing no evidence that a
+  profitable signal dissipates during the reporting lag. Predictive models and implementable
+  copy-trading portfolios also generate no reliable net abnormal returns. Congressional trade
+  disclosures therefore provide no reliable basis for earning abnormal returns once outside
+  investors can act on them. More broadly, our analysis underscores that delayed public records
+  should be evaluated according to when the public can act, not when the underlying action
+  occurred—a distinction often overlooked in the congressional trading literature.
 note: Draft available on request. Please %EMAIL% for a copy.
 ---
 
