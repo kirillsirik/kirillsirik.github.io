@@ -270,6 +270,12 @@ html[data-theme="dark"] {
   }
 
   .teaching-meta {
+    margin-bottom: 0.15rem;
+    font-size: 0.93rem;
+    color: var(--global-text-color-light);
+  }
+
+  .teaching-terms {
     margin-bottom: 0.5rem;
     font-size: 0.93rem;
     color: var(--global-text-color-light);
