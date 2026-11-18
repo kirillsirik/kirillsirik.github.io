@@ -1,0 +1,46 @@
+{% assign entry = include.entry %}
+<div class="research-entry" id="{{ entry.slug }}">
+  <h3 class="research-title">
+    {% if entry.hide_details -%}
+      {{- entry.title -}}
+    {%- else -%}
+      <a href="{{ entry.url | relative_url }}">{{ entry.title }}</a>
+    {%- endif %}
+  </h3>
+  <p class="research-meta">
+    {% if entry.authors -%}
+      <span class="research-authors">{{ entry.authors | replace: 'Kirill Sirik', '<strong>Kirill Sirik</strong>' }}.</span>
+    {%- endif %}
+    {% if entry.venue -%}
+      <span class="research-venue"
+        ><em>{{ entry.venue }}</em>{% if entry.year %}, {{ entry.year }}{% endif %}.</span
+      >
+    {%- endif %}
+  </p>
+  {% if entry.summary %}
+    <p class="research-summary">{{ entry.summary }}</p>
+  {% endif %}
+  {% if entry.abstract %}
+    <details class="research-abstract"{% if entry.abstract_open %} open{% endif %}>
+      <summary>{{ entry.abstract_label | default: 'Abstract' }}</summary>
+      <p>{{ entry.abstract }}</p>
+    </details>
+  {% endif %}
+  {% if entry.note %}
+    {%- capture email_link %}<a href="mailto:{{ 'ks2850@princeton.edu' | encode_email }}">email me</a>{% endcapture -%}
+    <p class="research-note">{{ entry.note | replace: '%EMAIL%', email_link }}</p>
+  {% endif %}
+  {% unless entry.hide_details and entry.links == null %}
+    <p class="research-links">
+      {% unless entry.hide_details -%}
+        <a href="{{ entry.url | relative_url }}">Details</a>
+      {%- endunless %}
+      {% for link in entry.links -%}
+        {% unless forloop.first and entry.hide_details -%}
+          <span class="research-sep">&middot;</span>
+        {%- endunless -%}
+        <a href="{{ link.url }}" target="_blank" rel="noopener noreferrer">{{ link.name }}</a>
+      {%- endfor %}
+    </p>
+  {% endunless %}
+</div>
