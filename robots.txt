@@ -1,0 +1,4 @@
+User-agent: *
+Disallow:
+
+Sitemap: https://kirillsirik.github.io/sitemap.xml
